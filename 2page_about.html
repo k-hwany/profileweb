@@ -12,19 +12,27 @@
         <style>
             div {
                 width: 100%;
-                height: 40px;
-                
+                height: 50px;
             }
             div.left {
                 width: 50%;
                 float: left;
                 box-sizing: border-box;                        
             }
+            div.left2{
+                width: 250px;;
+                float: right;
+                box-sizing: border-box; 
+            }
             div.right {
                 width: 50%;
                 float: right;
                 box-sizing: border-box;
-                
+            }
+            div.right2{
+                width: 300px;
+                float: left;
+                box-sizing: border-box;    
             }
         </style>
     </head>
@@ -34,7 +42,7 @@
         <center>
             <div class="div" style="margin-top:100px;">
                 <center>
-                    <h1>
+                    <h1 style="color: aliceblue;">
                         <b>
                             About Me
                         </b>
@@ -44,65 +52,70 @@
         </center>
         
         <div class="left" style="margin-top : 100px">
-            <img 
-            src="images/study.png" 
-            alt="MyImage" 
-            width="50" 
-            height="50"
-            style="float: right; margin-right : 15%; margin-top : 6px">
-            <br />
-            <br />
-            <br />           
-            <img 
-            src="images/planning.png" 
-            alt="MyImage" 
-            width="50" 
-            height="50"
-            style="float: right;margin-right : 15%; margin-top:40px">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <img 
-            src="images/communication.png" 
-            alt="MyImage" 
-            width="50" 
-            height="50"
-            style="float: right; margin-right : 15%;margin-top:25px;">          
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <img 
-            src="images/graduate.png" 
-            alt="MyImage" 
-            width="50" 
-            height="50"
-            style="float: right;margin-right : 15%; margin-top:20px">
+            <div class="left2">
+                <img 
+                src="images/study.png" 
+                alt="MyImage" 
+                width="50" 
+                height="50"
+                style="float: right; margin-right : 15%; margin-top : 6px;">
+                <br />
+                <br />
+                <br />           
+                <img 
+                src="images/planning.png" 
+                alt="MyImage" 
+                width="50" 
+                height="50"
+                style="float: right;margin-right : 15%; margin-top:40px">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <img 
+                src="images/communication.png" 
+                alt="MyImage" 
+                width="50" 
+                height="50"
+                style="float: right; margin-right : 15%;margin-top:25px;">          
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <img 
+                src="images/graduate.png" 
+                alt="MyImage" 
+                width="50" 
+                height="50"
+                style="float: right;margin-right : 15%; margin-top:20px">
+            </div>  
         </div>
 
         <div class="right" style="margin-top : 100px;">
-            <h2>
-                늘 배우고자 하는 자세
-            </h2>
-            <br />
-            <h2>
-                계획적인 개발
-            </h2>
-            <br />
-            <h2>
-                커뮤니케이션 능력
-            </h2>
-            <br />
-            <h2>
-                컴퓨터공학과 학사(졸업)
-            </h2>
+            <div class="right2"
+            style="margin-left:30px">
+                <h2 style="color: aliceblue;">
+                    늘 배우고자 하는 자세
+                </h2>
+                <br />
+                <h2 style="color: aliceblue;">
+                    계획적인 개발
+                </h2>
+                <br />
+                <h2 style="color: aliceblue;">
+                    커뮤니케이션 능력
+                </h2>
+                <br />
+                <h2 style="color: aliceblue;">
+                    컴퓨터공학과 학사(졸업)
+                </h2>
+            </div>
         </div>
 
         <center>      
-        <Button onclick="location.href='myprofile.html'"
+        <Button onclick="location.href='1page_profile.html'"
             style="margin-top : 350px;">이전 페이지</Button>
         <Button onclick="location.href='3page_skill.html'"
             >다음 페이지</Button>

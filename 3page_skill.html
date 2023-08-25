@@ -9,41 +9,71 @@
 
 
         <style>
-            div {
+            div{
                 width: 100%;
-                height: 450px;
-                
+                height: 50px;
             }
             div.left {
                 width: 40%;
+                height: auto;
                 float: left;
                 box-sizing: border-box;
-                
             }
             div.center{
                 width: 20%;
+                height: auto;
                 float: left;
                 box-sizing: border-box;
-
             }
             div.right {
                 width: 40%;
+                height: auto;
                 float: right;
                 box-sizing: border-box;
-                
             }
             </style>
     </head>
 
 
     <body>
-        <h1 style="margin-top : 100px;">
-            <b>
-                My Skill
-            </b>
-        </h1>
+        <center>
+            <div class="div">
+                <h1 style="margin-top : 100px;color: aliceblue;">
+                    <b>
+                        My Skill
+                    </b>
+                </h1>
+            </div>
+        </center>
+        
 
-        <div class="left">
+
+        <div class="left" style="margin-top:50px"> 
+            <center>    
+                <h2 style="color: aliceblue; margin-left:50%">
+                    Language
+                </h2>  
+            </center>           
+        </div>
+        <div class="center"style="margin-top:50px">
+            <center>
+                <h2 style="color: aliceblue;">
+                    DataBase
+                </h2>
+            </center>
+        </div>  
+        <div class="right"style="margin-top:50px">  
+            <center>
+                <h2 style="color: aliceblue; margin-right:50%">
+                    Tool
+                </h2>   
+            </center>  
+        </div>
+        
+
+
+
+        <div class="left" style="margin-top:50px">
             <center>
                 <img 
                 src="images/C.png" 
@@ -61,34 +91,9 @@
                 >
                 <img src="images/java.png" alt="MyImage"width="50"height="50"
                 >
-
             </center>
-            <center>
-                <h2 style="background-color: aliceblue; margin-left:50%">Language</h2>
-            </center>
-
-            <center>
-                <h3 style="margin-left:50%;">
-                    C
-                </h3>
-                <h3 style="margin-left:50%;">
-                    C++
-                </h3>
-                <h3 style="margin-left:50%;">
-                    C#
-                </h3>
-                <h3 style="margin-left:50%;">
-                    Python
-                </h3>
-                <h3 style="margin-left:50%;">
-                    Java
-                </h3>
-            </center>
-            
         </div>
-
-
-        <div class="center">
+        <div class="center"style="margin-top:50px">
             <center>
                 <img src="images/oracle.jpeg" alt="MyImage"width="50"height="50"
                 style="margin-top:20px;">
@@ -99,30 +104,8 @@
                 <img src="images/mariadb.png" alt="MyImage"width="50"height="50"
                 >
             </center>
-            
-            <center>
-                <h2 style="background-color: aliceblue; margin-top:5.1%">DataBase</h2>
-            </center>
-
-            <center>
-                <h3>
-                    Oracle
-                </h3>
-                <h3>
-                    MySQL
-                </h3>
-                <h3>
-                    MariaDB
-                </h3>
-            </center>
         </div>
-
-
-
-
-
-
-        <div class="right">
+        <div class="right"style="margin-top:50px">
             <center>
                 <img src="images/vscode.jpeg" alt="MyImage"width="50"height="50"
                 style="margin-top:20px">
@@ -137,25 +120,60 @@
                 <img src="images/AnS.jfif" alt="MyImage"width="50"height="50"
                 style="margin-right : 50%">
             </center>
+        </div>
 
+
+        
+
+        <div class="left" style="margin-top: 50px;">
             <center>
-                <h2 style="background-color: aliceblue; margin-top:8; margin-right:50%">Tool</h2>
+                <h3 style="margin-left:50%; color: aliceblue;">
+                    C
+                </h3>
+                <h3 style="margin-left:50%; color: aliceblue;">
+                    C++
+                </h3>
+                <h3 style="margin-left:50%; color: aliceblue;">
+                    C#
+                </h3>
+                <h3 style="margin-left:50%; color: aliceblue;">
+                    Python
+                </h3>
+                <h3 style="margin-left:50%; color: aliceblue;">
+                    Java
+                </h3>  
             </center>
-
+        </div>
+  
+        <div class="center" style="margin-top: 50px;">
             <center>
-                <h3 style="margin-right: 50%;">
+                <h3 style="color: aliceblue;">
+                    Oracle
+                </h3>
+                <h3 style="color: aliceblue;">
+                    MySQL
+                </h3>
+                <h3 style="color: aliceblue;">
+                    MariaDB
+                </h3>
+            </center>
+        </div>
+ 
+        <div class="right" style="margin-top: 50px;">
+            <center>
+                <h3 style="color: aliceblue; margin-right:50%">
                     VS code
                 </h3>
-                <h3 style="margin-right: 50%;">
+                <h3 style="color: aliceblue; margin-right:50%">
                     Visual Studio
                 </h3>
-                <h3 style="margin-right: 50%;">
+                <h3 style="color: aliceblue; margin-right:50%">
                     Pycharm
                 </h3>
-                <h3 style="margin-right: 50%;">
+                <h3 style="color: aliceblue; margin-right:50%">
                     eclipse
                 </h3>
-                <h3 style="margin-right: 50%;">
+                <h3 style="color: aliceblue; margin-right:50%">
                     Android Studio
                 </h3>
             </center>
@@ -165,7 +183,7 @@
 
         <center>
             <Button onclick="location.href='2page_about.html'"
-                style="margin-top :10px;">
+                style="margin-top :100px;">
                 이전 페이지
             </Button>
             <Button onclick="location.href=''">다음 페이지</Button>

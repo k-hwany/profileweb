@@ -1,8 +1,8 @@
 body {
     width: 100%;
     height: auto;
-    background-image: url("images/pro.jfif");
-
+    background-image: url("images/pro.jpg");
+    background-size: cover;
   }
 
 
@@ -23,6 +23,6 @@ h1{
   text-align: center;
 }
 
-Button{
-  text-align: center;
-}
+
+
+
