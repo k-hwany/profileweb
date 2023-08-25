@@ -21,3 +21,7 @@ p {
   /* 수평 중앙 정렬하기 */
   text-align: center;
 }
+
+h1{
+  text-align: center;
+}
