@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("profile.jpg");
+    background-repeat : no-repeat;
+    background-size : cover;
+  }
+
+
+
+  .container {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+}
+
+p {
+  /* 수평 중앙 정렬하기 */
+  text-align: center;
+}
