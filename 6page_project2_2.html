@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML Intro</title>
+
+        <link rel="stylesheet" href="myprofile.css"/>
+
+        <style>
+            div {
+                width: 100%;
+                height: 50px; 
+                
+            }
+            div.left {
+                width: 50%;
+                height: 50px;
+                float: left;
+                box-sizing: border-box;
+            }
+            
+            div.right {
+                width: 50%;
+                height: 50px;
+                float: left;
+                box-sizing: border-box;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="div"> 
+            <center>
+                <h1 style="color: aliceblue; margin-top:100px;">
+                    Project (학사 논문)
+                </h1>
+            </center>
+        </div>
+
+
+        <div class="left" style="margin-top:50px;">
+            <center>
+                <h2 style="color: aliceblue;">
+                    Model Data Set
+                </h2>
+                <img src="project2_images/project2_dataset.PNG" alt="MyImage"width="300"height="200">
+                <p style="color: aliceblue;">
+                    -Deeplearning을 위한 간단한 식품 데이터셋 4종류 
+                </p>
+                <p style="color: aliceblue;">
+                    각각 1000장의 이미지 데이터셋 준비
+                </p>
+                <h2 style="color: aliceblue; margin-top:50px">
+                     Model 구축
+                </h2>
+                <img src="project2_images/project2_model.PNG" alt="MyImage"width="300"height="300">
+                <p style="color: aliceblue;">
+                    -식품을 구분하기 위한 Deeplearning 모델 구축
+                </p>
+            </center>
+        </div>
+
+
+        <div class="right" style="margin-top:50px">
+            <center>
+                <h2 style="color: aliceblue;">
+                    서비스 구성 과정
+                </h2>
+                <img src="project2_images/project2_HWgroub.png" alt="MyImage"width="400"height="300">     
+                
+                <h2 style="color: aliceblue;">
+                    개발 환경
+                </h2>
+                <p style="color: aliceblue;">
+                    ★ 하드웨어 ★
+                </p>
+                <p style="color: aliceblue;">
+                    RaspberryPi, 카메라 모듈, 스피커 모듈
+                </p>
+                <br />
+                <br />
+                <p style="color: aliceblue;">
+                    ★ 사용 언어 및 프레임워크 ★
+                </p>
+                <p style="color: aliceblue;">
+                    Python, Tensorflow
+                </p>
+                <br />
+                <br />
+                <p style="color: aliceblue;">
+                    ★ DBMS ★
+                </p>
+                <p style="color: aliceblue;">
+                    MariaDB
+                </p>
+            </center>
+        </div>
+
+        <center>
+            <Button onclick="location.href='6page_project2.html'"
+                style="margin-top :800px;">
+                이전 페이지
+            </Button>
+            <Button onclick="location.href='end.html'">
+                다음 페이지
+            </Button>
+        </center>
+
+    </body>
+</html>
