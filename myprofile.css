@@ -1,27 +1,26 @@
 body {
-    height: 100%;
     width: 100%;
-    background-image: url("profile.jpg");
-    background-repeat : no-repeat;
-    background-size : cover;
+    height: auto;
+    background-image: url("images/pro.jfif");
+
   }
 
 
 
   .container {
-  font-family: arial;
-  font-size: 24px;
-  margin: 25px;
-  width: 350px;
-  height: 200px;
-  outline: dashed 1px black;
-}
+    width: 100%;
+    margin:auto;
+  }
 
 p {
   /* 수평 중앙 정렬하기 */
   text-align: center;
 }
 
+
+ /* 헤드 1은 중앙 정렬 */
 h1{
   text-align: center;
 }
+
+
