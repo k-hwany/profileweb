@@ -7,44 +7,49 @@
         <title>HTML Intro</title>
 
         <link rel="stylesheet" href="myprofile.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <style>
             div {
                 width: 100%;
-                height: 400px; 
+                height: 40px;
+                
             }
             div.left {
                 width: 50%;
                 float: left;
-                box-sizing: border-box;              
+                box-sizing: border-box;                        
             }
             div.right {
                 width: 50%;
                 float: right;
                 box-sizing: border-box;
+                
             }
         </style>
     </head>
 
 
     <body>
-        <h1 style="margin-top : 7%; color:azure;">
-            <b>
-                About me
-            </b>
-        </h1>
+        <center>
+            <div class="div" style="margin-top:100px;">
+                <center>
+                    <h1>
+                        <b>
+                            About Me
+                        </b>
+                    </h1>
+                </center>
+            </div>
+        </center>
         
-
-        <br />
-        <br />
-
-        <div class="left">
+        <div class="left" style="margin-top : 100px">
             <img 
             src="images/study.png" 
             alt="MyImage" 
             width="50" 
             height="50"
-            style="float: right; margin-right : 5%; margin-top : 1%">
+            style="float: right; margin-right : 15%; margin-top : 6px">
             <br />
             <br />
             <br />           
@@ -53,7 +58,7 @@
             alt="MyImage" 
             width="50" 
             height="50"
-            style="float: right;margin-right : 5%; margin-top:4%">
+            style="float: right;margin-right : 15%; margin-top:40px">
             <br />
             <br />
             <br />
@@ -64,7 +69,7 @@
             alt="MyImage" 
             width="50" 
             height="50"
-            style="float: right; margin-right : 5%;margin-top:3%">          
+            style="float: right; margin-right : 15%;margin-top:25px;">          
             <br />
             <br />
             <br />
@@ -75,39 +80,32 @@
             alt="MyImage" 
             width="50" 
             height="50"
-            style="float: right;margin-right : 5%; margin-top:2%">
+            style="float: right;margin-right : 15%; margin-top:20px">
         </div>
 
-        <div class="right">
-            <h2 style="color: aliceblue;">
+        <div class="right" style="margin-top : 100px;">
+            <h2>
                 늘 배우고자 하는 자세
             </h2>
             <br />
-            <h2 style="color: aliceblue; ">
+            <h2>
                 계획적인 개발
             </h2>
             <br />
-            <h2 style="color: aliceblue;">
+            <h2>
                 커뮤니케이션 능력
             </h2>
             <br />
-            <h2 style="color: aliceblue;">
+            <h2>
                 컴퓨터공학과 학사(졸업)
             </h2>
         </div>
-       
-        
-        
 
-    
-        <center>
-            <Button onclick="location.href='myprofile.html'"
-            style="margin-top:5%">이전 페이지</Button>
+        <center>      
+        <Button onclick="location.href='myprofile.html'"
+            style="margin-top : 350px;">이전 페이지</Button>
+        <Button onclick="location.href='3page_skill.html'"
+            >다음 페이지</Button>
         </center>
-        <center>
-            <Button onclick="location.href='3page_skill.html'">다음 페이지</Button>
-        </center>
-
-
     </body>
 </html>
